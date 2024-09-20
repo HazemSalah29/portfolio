@@ -50,7 +50,7 @@ const HeroAbout = ({ main }) => (
 const Achievements = ({ achievements }) => (
   <div
     className={classNames(
-      'prose prose-invert hidden grow grid-cols-2 gap-2 sm:grid md:gap-6 md:pr-6'
+      'prose prose-invert hidden grow grid-cols-3 gap-2 sm:grid md:gap-3 md:pr-6'
     )}
   >
     {achievements?.map((item, i) => (
@@ -86,9 +86,9 @@ const Layout = ({ main = {}, cta = {}, achievements = [], companies }) => (
           <ContentRenderer source={cta} />
         </div>
       </div>
-      <div className="mt-6 mt-12 hidden w-3/4 px-2 pr-12 md:block">
+      {/* <div className="mt-6 hidden w-3/4 px-2 pr-12 md:block">
         <Companies {...companies} />
-      </div>
+      </div> */}
     </div>
   </div>
 )

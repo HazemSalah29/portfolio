@@ -36,7 +36,7 @@ Frontend Developer with extensive experience in creating user interfaces and opt
 
 ---cta
 ---
-<Button href="/contact" size="lg">
+<Button href="/HazemSalah.pdf" size="sm" download>
   Download Resume
 </Button>
 

@@ -57,7 +57,7 @@ Featured handcrafted articles about my thoughts and experiments.
 
 ---cta
 ---
-<Button href="/contact" size="sm">
+<Button href="/resume/HazemSalah.pdf" size="sm" download>
   Download Resume
 </Button>
 

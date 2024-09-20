@@ -50,7 +50,7 @@ if (have_a_project) navigate('/contact')
 
 ---cta
 ---
-<Button href="/contact" size="sm">
+<Button href="/resume/HazemSalah.pdf" size="sm" download>
   Download Resume
 </Button>
 
